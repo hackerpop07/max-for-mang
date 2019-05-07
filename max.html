@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Max for item</title>
+</head>
+<body>
+<script>
+  let x = [2, 3, 4, 32, 43, 5, 43, 5, 434, 3, 4];
+  let max = x[0];
+  let index = 0;
+  for (let i = 0; i < x.length; i++) {
+    if (x[i] > max) {
+      max = x[i];
+      index = i;
+    }
+  }
+  alert(max + " vị trí tại" + index);
+</script>
+</body>
+</html>
